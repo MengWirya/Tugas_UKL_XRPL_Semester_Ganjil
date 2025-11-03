@@ -14,9 +14,10 @@ public class Soal_Sulit_01 {
             TotalNilaiSiswa += NilaiSiswa[i];
         }
 
-        Double RataRata = (double) TotalNilaiSiswa / NilaiSiswa.length;
+        double RataRata = TotalNilaiSiswa / NilaiSiswa.length;
         System.out.println("Rata-Rata Nilai siswa adalah : " + RataRata);
         
         Input.close();
     }
+
 }
