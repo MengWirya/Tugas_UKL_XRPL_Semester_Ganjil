@@ -27,7 +27,7 @@ public class Soal_Mudah_01 {
             }
             System.out.println("Biaya Pengiriman : " + Biaya);
         } else if (Jarak > 10 && Jarak > 0) {
-            Double Biaya = 3750.0 * Berat;
+            Double Biaya = 6000.0 * Berat;
             if (Volume > 100) {
                 Biaya += 50000.0;
             }
@@ -38,4 +38,5 @@ public class Soal_Mudah_01 {
         
         Input.close();
     }
+
 }    
