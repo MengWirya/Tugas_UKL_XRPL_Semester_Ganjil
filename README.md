@@ -1,2 +1,5 @@
 # Tugas_UKL_XRPL_Semester_Ganjil
 Tugas UKL milik Wiryateja Pamungkas dari kelas X RPL 3, Semester Ganjil
+
+# Penjelasan Soal Mudah Nomor 01
+Coding milik saya dibagi menjadi 3 bagian (2 kalau bedasarkan fungsi dari codingnya). Bagian pertama adalah penginputan nilai (Berat, Jarak, Panjang Paket, Lebar Paket, Tinggi Paket) lalu bagian kedua adalah menemukan volume paket (Panjang X Lebar X Tinggi) dan bagian terakhir adalah penghitungan biaya. Yang saya lakukan untuk penghitungan biaya adalah seperti ini pertama saya akan mengecek apakah paket tersebut berjarak kurang dari 10 km "DAN" (kalau dalam coding menggunakan &&) jaaraknya lebih dari 0 km (Karena kalau dibawah atau sama dengan 0 KM sama aja gak ngirim paket) lalu aku akan menambahkan harga sebesar 4250 per KG dan aku membuat kondisi (if) tambahan jika volume paket melebihi 100 maka akan dikenakan tambahan biaya sebesar 50000. Hal ini juga berlaku untuk paket yang memiliki jarak lebih dari 10 KM tetapi bedanya saya akan menambah harga sebesar 6000 per KG.
