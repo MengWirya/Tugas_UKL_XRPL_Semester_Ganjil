@@ -13,7 +13,8 @@ public class Soal_Sedang_02 {
     }
 
     static Double FungsiVolumeTabung(Double r, Double t) {
-        Double Volume = (Double) (3.14 * r * r * t);
+        Double Volume = 3.14 * r * r * t;
         return Volume;
     }   
 }
+
